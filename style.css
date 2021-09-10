@@ -1,0 +1,379 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/*****************************
+end of reset
+*****************************/
+h1 {
+  font-size: 4em;
+}
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 4.5em;
+  }
+}
+@media screen and (min-width: 992px) {
+  h1 {
+    font-size: 5.5em;
+  }
+}
+@media screen and (min-width: 1200px) {
+  h1 {
+    font-size: 6em;
+  }
+}
+h2 {
+  font-size: 2.5em;
+}
+@media screen and (min-width: 768px) {
+  h2 {
+    font-size: 4em;
+  }
+}
+@media screen and (min-width: 992px) {
+  h2 {
+    font-size: 4.5em;
+  }
+}
+@media screen and (min-width: 1200px) {
+  h2 {
+    font-size: 5em;
+  }
+}
+h3 {
+  font-size: 1.5em;
+}
+@media screen and (min-width: 768px) {
+  h3 {
+    font-size: 2em;
+  }
+}
+@media screen and (min-width: 992px) {
+  h3 {
+    font-size: 2.5em;
+  }
+}
+@media screen and (min-width: 1200px) {
+  h3 {
+    font-size: 3em;
+  }
+}
+h4 {
+  font-size: 1em;
+}
+@media screen and (min-width: 768px) {
+  h4 {
+    font-size: 1em;
+  }
+}
+@media screen and (min-width: 992px) {
+  h4 {
+    font-size: 1.5em;
+  }
+}
+@media screen and (min-width: 1200px) {
+  h4 {
+    font-size: 2em;
+  }
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+body {
+  background-image: url("http://www.jrgiantdev.com/media/ricardo-gomez-angel-365497_compressed.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+  padding: 0;
+}
+header {
+  background-color: #FFFBE8;
+  position: relative;
+  width: 100%;
+  clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
+  shape-outside: polygon(0 0, 100% 0, 100% 100%, 0 70%);
+  min-height: 200px;
+  text-align: center;
+}
+@media screen and (min-width: 480px) {
+  header {
+    min-height: 200px;
+  }
+}
+@media screen and (min-width: 768px) {
+  header {
+    min-height: 250px;
+  }
+}
+header h1 {
+  padding-top: 5%;
+  font-family: 'Shadows Into Light', cursive;
+  font-weight: bold;
+  margin-top: 0;
+}
+.spacerAfter {
+  margin-bottom: 50px;
+}
+@media screen and (min-width: 768px) {
+  .spacerAfter {
+    margin-bottom: 150px;
+  }
+}
+@media all and (min-width: 992px) {
+  .spacerAfter {
+    margin-bottom: 250px;
+  }
+}
+.polygon-segment {
+  background-color: white;
+  padding-top: 70px;
+  position: relative;
+  clip-path: polygon(0 30%, 100% 0, 100% 70%, 0 100%);
+  shape-outside: polygon(0 30%, 100% 0, 100% 100%, 0 70%);
+  min-height: 200px;
+}
+@media screen and (min-width: 480px) {
+  .polygon-segment {
+    min-height: 200px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .polygon-segment {
+    min-height: 250px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .polygon-segment {
+    min-height: 350px;
+    padding-top: 150px;
+  }
+}
+@media all and (min-width: 992px) {
+  .polygon-segment {
+    min-height: 500px;
+  }
+}
+.polygon-segment.construct {
+  background-image: url("http://www.jrgiantdev.com/media/matthew-hamilton-159691.jpg");
+  background-size: 100%;
+}
+.polygon-segment.construct h2 {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  text-align: center;
+}
+.polygon-segment.construct a {
+  position: absolute;
+  bottom: 20px;
+}
+footer {
+  background-color: white;
+  padding-top: 70px;
+  position: relative;
+  clip-path: polygon(0 30%, 100% 0, 100% 70%, 0 100%);
+  shape-outside: polygon(0 30%, 100% 0, 100% 100%, 0 70%);
+  clip-path: polygon(0 30%, 100% 0, 100% 100%, 0 100%);
+  shape-outside: polygon(0 30%, 100% 0, 100% 100%, 0 100%);
+  min-height: 200px;
+  background-color: #101;
+  color: white;
+  padding-bottom: 50px;
+}
+@media screen and (min-width: 480px) {
+  footer {
+    min-height: 200px;
+  }
+}
+@media screen and (min-width: 768px) {
+  footer {
+    min-height: 250px;
+  }
+}
+@media screen and (min-width: 768px) {
+  footer {
+    min-height: 350px;
+    padding-top: 150px;
+  }
+}
+@media all and (min-width: 992px) {
+  footer {
+    min-height: 500px;
+  }
+}
+footer.construct {
+  background-image: url("http://www.jrgiantdev.com/media/matthew-hamilton-159691.jpg");
+  background-size: 100%;
+}
+footer.construct h2 {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  text-align: center;
+}
+footer.construct a {
+  position: absolute;
+  bottom: 20px;
+}
+@media screen and (min-width: 480px) {
+  footer {
+    min-height: 200px;
+  }
+}
+@media screen and (min-width: 768px) {
+  footer {
+    min-height: 250px;
+  }
+}
+@media screen and (max-width: 480px) {
+  footer {
+    padding-top: 80px;
+  }
+}
+footer .centerFooter {
+  text-align: center;
+}
+footer .centerFooter > div {
+  padding-top: 20px;
+}
+@media all and (min-width: 767px) {
+  footer .centerFooter > div {
+    padding-top: 60px;
+  }
+}
+footer a {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+footer a img {
+  width: 150px;
+}
+@media all and (max-width: 767px) {
+  footer a img {
+    width: 75px;
+  }
+}
